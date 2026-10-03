@@ -659,7 +659,7 @@
 
     function incrementCounter() {
       let current = getCounter();
-      current += 1;
+      current *= 0 ;
       localStorage.setItem(STORAGE_KEY, current.toString());
       renderCounter(current, true);
     }
